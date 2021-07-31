@@ -1,0 +1,23 @@
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Aula_24__07___FrameWork
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Digite o valor da primeira nota ");
+            int primeiraNota = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Digite o valor da Segunda nota ");
+            int segundaNota = Convert.ToInt32(Console.ReadLine());
+            int soma = primeiraNota + segundaNota;
+            Console.WriteLine("a soma é " + soma);
+            Console.ReadLine();
+        }
+    }
+}
